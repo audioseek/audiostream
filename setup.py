@@ -108,6 +108,9 @@ setup(
     maintainer='Ewen Le Bihan',
     maintainer_email='hey@ewen.works',
     packages=['audiostream', 'audiostream.sources', 'audiostream.platform'],
+    package_data={
+        'audiostream': ['*.pxi']
+    },
     url='http://txzone.net/',
     license='LGPL',
     description='An audio library designed to let the user stream to speakers',
