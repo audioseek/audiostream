@@ -105,6 +105,8 @@ setup(
     version='0.2',
     author='Mathieu Virbel, Dustin Lacewell',
     author_email='mat@kivy.org',
+    maintainer='Ewen Le Bihan',
+    maintainer_email='hey@ewen.works',
     packages=['audiostream', 'audiostream.sources', 'audiostream.platform'],
     url='http://txzone.net/',
     license='LGPL',
