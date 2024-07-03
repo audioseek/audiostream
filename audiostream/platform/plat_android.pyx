@@ -105,6 +105,7 @@ class AndroidAudioInput(AudioInput):
             }.get(self.source)
 
 
+# added noexcept
 cdef void cy_audio_callback(char *buf, int buffersize) noexcept nogil:
     if audio_in_rb == NULL:
         return
